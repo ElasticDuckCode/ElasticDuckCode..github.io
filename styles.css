@@ -10,7 +10,7 @@ h1 {
 h2 {
 	margin: 15px;
 	color: #222222;
-	text-align: center;
+	font-weight: normal;
 }
 
 p {
@@ -31,7 +31,9 @@ a {
 }
 
 .topnav {
-    background-color: #f0f0f0;
+    //background-color: #f0f0f0;
+	border-bottom: 1px solid;
+	border-color: #e0e0e0;
     overflow: hidden;
 }
 .topnav a {
@@ -47,6 +49,7 @@ a {
     color: black;
 }
 .topnav a.active {
-    background-color: #ffd700;
-    color: black;
+    //background-color: #ffd700;
+    background-color: #000000;
+    color: white;
 }
