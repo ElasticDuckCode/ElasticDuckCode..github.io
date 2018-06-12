@@ -1,3 +1,42 @@
 body {
-	background-color: #ffffff
+	background-color: #ffffff;
+	font-family: sf pro display, san-serif;
+}
+h1 {
+	color: black;
+	text-align: center;
+}
+p {
+	color: #333333;
+}
+table, th, td {
+	border: 1px solid black;
+	border-collapse: collapse;
+	font-style: normal;
+	background-color: #eeeeee;
+}
+th, td {
+	padding: 5px;
+}
+a { 
+}
+.topnav {
+    background-color: #dddddd;
+    overflow: hidden;
+}
+.topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.topnav a:hover {
+    background-color: #bbbbbb;
+    color: black;
+}
+.topnav a.active {
+    background-color: #ffd700;
+    color: black;
 }
