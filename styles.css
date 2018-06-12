@@ -1,12 +1,19 @@
 body {
 	background-color: #ffffff;
-	font-family: sf pro display, san-serif;
+	font-family: helvetica neue, san-serif;
 }
 h1 {
 	color: black;
+}
+h2 {
+	margin: 15px;
+	color: #222222;
 	text-align: center;
 }
+
 p {
+	padding: 15px;
+	margin: 15px;
 	color: #333333;
 }
 table, th, td {
@@ -20,8 +27,9 @@ th, td {
 }
 a { 
 }
+
 .topnav {
-    background-color: #dddddd;
+    background-color: #f0f0f0;
     overflow: hidden;
 }
 .topnav a {
