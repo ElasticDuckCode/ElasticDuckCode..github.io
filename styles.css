@@ -57,3 +57,12 @@ a {
     background-color: #000000;
     color: white;
 }
+.figure {
+	border: 1px black solid;
+	margin: 10px;
+	width: 30%;
+}
+.code {
+	background-color: #f0f0f0;
+	font-family: monospace;
+}
